@@ -1,8 +1,7 @@
 <p>
   home works!
 </p>
-<ul>
-  <li *ngFor="let channel of channels">
-    <p class="">{{channel.id}}</p>
-  </li>
-</ul>
+<app-youtube-player
+  *ngFor="let channel of channels"
+  [id]="channel.id">
+</app-youtube-player>

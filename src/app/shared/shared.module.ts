@@ -1,11 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { YoutubePlayerDirective } from './directives/youtube-player.directive';
+import { YoutubePlayerComponent } from './components/youtube-player/youtube-player.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [YoutubePlayerDirective]
+  declarations: [
+    YoutubePlayerComponent
+  ],
+  exports: [
+    YoutubePlayerComponent
+  ],
+  entryComponents: [
+    YoutubePlayerComponent
+  ]
 })
 export class SharedModule { }

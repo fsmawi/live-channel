@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
 import {HomeComponent} from './home.component';
+// import {YoutubePlayerComponent} from '../core/components/youtube-player/youtube-player.component';
 
 const routes: Routes = [
   {
